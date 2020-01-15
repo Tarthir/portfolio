@@ -3,21 +3,91 @@ body{
     background-color: #EEEEEE;
     font-size: 20px;
     font-family: cursive;
-    text-align: left;
+    text-align: center;
+    border: 1px solid #0f0f0f;
+    padding-bottom: 25px;
 }
-
+h1, p{
+    background-color: #DDE0E3;
+    padding: 20px;
+}
 h1, h2, h3, h4{
     font-size: 2em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
 }
 
+em, strong{
+    text-decoration: underline;
+}
+
 ul{
     list-style: armenian;
+    text-align: left;
 }
 ol{
     list-style: armenian;
+    text-align: left;
 }
 p{
     text-decoration: wavy;
 }
+
+.button {
+    color: #FFF;
+    background-color: #5995DA;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  .button2 {
+    color: rgb(238, 13, 13);
+    background-color: #5995DA;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+#nav1,
+#nav2,
+#nav3,
+#nav4{
+    color: rgb(229, 222, 241);
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.page{
+    width: 600px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(80, 79, 79);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: solid;
+  }
+
+  li a:hover {
+    background-color: rgb(133, 127, 127);
+  }
