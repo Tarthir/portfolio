@@ -1,3 +1,23 @@
 body{
-    color: #FF0000;
+    color: #414141;
+    background-color: #EEEEEE;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: left;
+}
+
+h1, h2, h3, h4{
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+ul{
+    list-style: armenian;
+}
+ol{
+    list-style: armenian;
+}
+p{
+    text-decoration: wavy;
 }
